@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest</title>
+
+    <style>
+        .box {
+            width: 350px;
+            height: 350px;
+            border: 4px solid rgb(255, 255, 255);
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(221, 72, 72);
+            border-radius: 20px;
+            margin: 250px auto;
+        }
+
+        .para {
+            display: flex;
+        }
+
+        .Rate {
+            display: flex;
+        }
+
+        .Time {
+            display: flex;
+        }
+
+        .accrued {
+            display: flex;
+        }
+
+        .Interest {
+            display: flex;
+        }
+
+        body {
+        background: linear-gradient(to right,
+                #6f7280,
+                #2a2c3c,
+                #181827,
+                #833ab4,
+                #fd1d1d,
+                #fcb045);
+        background-size: 400% 400%;
+        animation: body 10s infinite ease-in-out;
+    }
+
+    @keyframes body {
+        0% {
+            background-position: 0 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0 50%;
+        }
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="box-2">
+            <h1 id="title"></h1>
+            <div class="para">
+                <p id="P"></p>
+                <p id="P-amount"></p>
+            </div>
+            <div class="Rate">
+                <p id="R"></p>
+                <p id="R-amount"></p>
+            </div>
+            <div class="Time">
+                <p id="T"></p>
+                <p id="years"></p>
+            </div>
+            <div class="accrued">
+                <p id="acc"></p>
+                <p id="A"></p>
+            </div>
+            <div class="Interest">
+                <p id="I"></p>
+                <p id="int"></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/pr_1.js"></script>
+</body>
+
+</html>

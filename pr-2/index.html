@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Product Purchase Bill</title>
+
+    <style>
+        .box {
+            width: 350px;
+            height: 550px;
+            border: 4px solid rgb(255, 255, 255);
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(221, 144, 72);
+            border-radius: 20px;
+            margin: 160px auto;
+        }
+        .name{
+            display: flex;
+        }
+        .pro-name{
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        body {
+        background: linear-gradient(to right,
+                #6f7280,
+                #2a2c3c,
+                #181827,
+                #833ab4,
+                #fd1d1d,
+                #fcb045);
+        background-size: 400% 400%;
+        animation: body 10s infinite ease-in-out;
+    }
+
+    @keyframes body {
+        0% {
+            background-position: 0 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0 50%;
+        }
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="box-2">
+            <h1 id="heading"></h1>
+            <div class="name">
+                <div class="p-name">
+                    <h4 id="name"></h4>
+                </div>
+                <div class="pro-name">
+                    <p id="name-1"></p>
+                    <p id="name-2"></p>
+                    <p id="name-3"></p>
+                    <p id="name-4"></p>
+                </div>
+            </div>
+            <div class="price">
+                <div class="name">
+                    <div class="pri">
+                        <h4 id="pri-t"></h4>
+                    </div>
+                    <div class="pro-name">
+                        <p id="pri-1"></p>
+                        <p id="pri-2"></p>
+                        <p id="pri-3"></p>
+                        <p id="pri-4"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="total">
+                <h4 id="total"></h4>
+            </div>
+            <div class="discount">
+                <h4 id="di"></h4>
+            </div>
+            <div class="dis-a-pr">
+                <h4 class="dis"></h4>
+            </div>
+        </div>
+    </div>
+    <script src="js/product.js"></script>
+</body>
+</html>
